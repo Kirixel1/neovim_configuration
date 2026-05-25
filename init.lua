@@ -17,6 +17,7 @@ vim.opt.scrolloff = 15                                               -- Keep 15 
 vim.opt.sidescrolloff = 15                                           -- Keep 15 columns left/right of cursor
 vim.opt.wrap = false                                                 -- Off line wrapping
 vim.opt.clipboard = 'unnamedplus'                                    -- Make system clipboard the same as Neovim registers for more convenient usage of yank/paste
+vim.opt.netrw_banner = false                                         -- Turn off the banner of the netrw built in explorer
 
 -- Tabbing / indentation
 vim.opt.shiftwidth = 4                                               -- Number of spaces to use for each step of indenting
