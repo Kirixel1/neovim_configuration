@@ -70,6 +70,10 @@ vim.keymap.set('n', '<leader>pv', '<cmd>Ex<CR>', { desc = 'Open netrw built in N
 vim.keymap.set('n', '<leader>it', '<cmd>InspectTree<CR>', { desc = 'Open tree-sitter inspection buffer' })
 vim.keymap.set('n', '<leader>sk', '<cmd>ShowkeysToggle<CR>', { desc = 'Show keys in the down-right corner' })
 vim.keymap.set('n', '<leader>O', 'o<esc>kO<Esc>j', { desc = 'Add empty lines' })
+vim.keymap.set('n', '<leader>ot', function()
+    vim.cmd('hor term')
+    vim.cmd('normal i')
+end, { desc = 'Opens terminal session in horizontal split below' })
 
 vim.keymap.set('n', '<leader>ff', function()
     require('fzf-lua').files()
