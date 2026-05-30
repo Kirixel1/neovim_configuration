@@ -43,11 +43,6 @@ Leader key = `<Space>`
 | `gbn`           | `:bnext`   | Next buffer                                                     |
 | `gbp`           | `:bprev`   | Previous buffer                                                 |
 | `gbd`           | `:bdelete` | Delete buffer                                                   |
-| `Ctrl+w Ctrl+x` |            | Swap windows places(between two buffers of the same split type) |
-| `Ctrl+w H`      |            | Changes current window split state to right positon             |
-| `Ctrl+w J`      |            | Changes current window split state to down positon              |
-| `Ctrl+w K`      |            | Changes current window split state to up positon                |
-| `Ctrl+w L`      |            | Changes current window split state to left positon              |
 
 ### Improved Scrolling & Search
 
@@ -60,16 +55,24 @@ Leader key = `<Space>`
 
 ### Window Management
 
-| Key     | Action                | Description          |
-| -----   | --------              | -------------        |
-| `<C-h>` | `<C-w><C-h>`          | Move to left window  |
-| `<C-j>` | `<C-w><C-j>`          | Move to below window |
-| `<C-k>` | `<C-w><C-k>`          | Move to above window |
-| `<C-l>` | `<C-w><C-l>`          | Move to right window |
-| `<A-h>` | `:vertical resize +9` | Resize window right  |
-| `<A-j>` | `:resize +6`          | Resize window down   |
-| `<A-k>` | `:resize -6`          | Resize window up     |
-| `<A-l>` | `:vertical resize -9` | Resize window left   |
+| Key              | Action                | Description                                         |
+| -----            | --------              | -------------                                       |
+| `<C-h>`          | `<C-w><C-h>`          | Move to left window                                 |
+| `<C-j>`          | `<C-w><C-j>`          | Move to below window                                |
+| `<C-k>`          | `<C-w><C-k>`          | Move to above window                                |
+| `<C-l>`          | `<C-w><C-l>`          | Move to right window                                |
+| `<A-h>`          | `:vertical resize +9` | Resize window right                                 |
+| `<A-j>`          | `:resize +6`          | Resize window down                                  |
+| `<A-k>`          | `:resize -6`          | Resize window up                                    |
+| `<A-l>`          | `:vertical resize -9` | Resize window left                                  |
+| `Ctrl+w Ctrl+x`  |                       | Exchange current window with next one               |
+| `Ctrl+w h`       |                       | Changes current window split state to right positon |
+| `Ctrl+w j`       |                       | Changes current window split state to down positon  |
+| `Ctrl+w k`       |                       | Changes current window split state to up positon    |
+| `Ctrl+w l`       |                       | Changes current window split state to left positon  |
+| `Ctrl+w o`       |                       | Closes all other windows except where cursor is     |
+| `Ctrl+w c(or q)` |                       | Closes current window                               |
+| `Ctrl+w =`       |                       | Make windows equally sized                          |
 
 ### Convenience
 
